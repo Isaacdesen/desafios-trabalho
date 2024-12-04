@@ -8,19 +8,23 @@ def calc(num1, operador, num2):
 
     if operador == "-":
         print(num1 - num2)
+        return True
 
     if operador == "+":
         print(num1 + num2)
+        return True
 
     if operador == "/":
         print(num1 / num2)
+        return True
 
     if operador == "*":
         print(num1 * num2)
+        return True
 
     if operador == "**":
         print(num1 - num2)
-
+        return False
     else:
         print("Operador não identificado")
 
